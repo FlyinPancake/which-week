@@ -9,7 +9,7 @@ export default function OECounter() {
   const [periodText, setPeriodText] = useState("");
 
   useEffect(() => {
-    const startDateObj = new Date("2024-09-09");
+    const startDateObj = new Date("2025-02-17");
     const now = new Date();
     const diffTime = now.getTime() - startDateObj.getTime();
     const diffWeeks = Math.floor(diffTime / (7 * 24 * 60 * 60 * 1000)) + 1;
